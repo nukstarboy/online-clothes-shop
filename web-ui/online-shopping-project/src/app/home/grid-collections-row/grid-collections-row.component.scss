@@ -1,7 +1,60 @@
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 220px 300px;
-  grid-gap: 10px;
-  padding: 10px;
+  display: table;
+}
+
+.first-two-grid > img {
+  margin: 0 1rem 1rem 0;
+}
+
+.second-two-grid > img {
+  margin: 0 1rem 1rem 0;
+}
+
+.grid-container-second {
+  display: table;
+}
+
+.first-first-two-grid > img {
+  margin: 0 1rem 1rem 0;
+}
+
+.second-second-two-grid > img {
+  margin: 0 1rem 1rem 0;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.first-img:hover {
+  transform: translateY(-10px);
+}
+
+.second-img:hover {
+  transform: translateY(-10px);
+}
+
+.third-img:hover {
+  transform: translateY(-10px);
+}
+
+.forth-img:hover {
+  transform: translateY(-10px);
+}
+
+.fifth-img:hover {
+  transform: translateY(-10px);
+}
+
+.sixth-img:hover {
+  transform: translateY(-10px);
+}
+.seventh-img:hover {
+  transform: translateY(-10px);
+}
+
+.eigth-img:hover {
+  transform: translateY(-10px);
 }

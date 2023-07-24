@@ -1,0 +1,33 @@
+.example-card {
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  transition: box-shadow 0.1s linear;
+  margin: 0.5em;
+}
+
+.example-card:hover {
+  box-shadow: 0.5px 0.5px 0.5px 1px lightgrey;
+}
+
+.card-content {
+  display: contents;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.hide-btn {
+  z-index: 2;
+  display: none;
+}
+
+.example-card:hover .hide-btn {
+  display: block;
+}
+
+.example-card > img {
+  object-fit: contain;
+}

@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import {ToolbarComponent} from "./toolbar/toolbar.component";
 import { HomeScreenPageComponent } from './home/home-screen-page/home-screen-page.component';
 import { GridCollectionsRowComponent } from './home/grid-collections-row/grid-collections-row.component';
+import { GridRowComponent } from './home/grid-row/grid-row.component';
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -18,6 +20,7 @@ import { GridCollectionsRowComponent } from './home/grid-collections-row/grid-co
     HomeComponent,
     HomeScreenPageComponent,
     GridCollectionsRowComponent,
+    GridRowComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,6 +28,7 @@ import { GridCollectionsRowComponent } from './home/grid-collections-row/grid-co
     MatIconModule,
     MatToolbarModule,
     MatButtonModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LargeToolbarComponent } from './toolbars/large-toolbar/large-toolbar.component';
+import { ToolbarComponent } from './toolbars/toolbar/toolbar.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonModule} from "@angular/material/button";
@@ -11,7 +11,7 @@ import {MatButtonModule} from "@angular/material/button";
 @NgModule({
   declarations: [
     AppComponent,
-    LargeToolbarComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,

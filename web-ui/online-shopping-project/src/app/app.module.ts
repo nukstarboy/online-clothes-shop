@@ -12,6 +12,8 @@ import { HomeScreenPageComponent } from './home/home-screen-page/home-screen-pag
 import { GridCollectionsRowComponent } from './home/grid-collections-row/grid-collections-row.component';
 import { GridRowComponent } from './home/grid-row/grid-row.component';
 import {MatCardModule} from "@angular/material/card";
+import { ImportantIconsComponent } from './home/important-icons/important-icons.component';
+import { EndPictureComponent } from './home/end-picture/end-picture.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import {MatCardModule} from "@angular/material/card";
     HomeScreenPageComponent,
     GridCollectionsRowComponent,
     GridRowComponent,
+    ImportantIconsComponent,
+    EndPictureComponent,
   ],
   imports: [
     BrowserModule,

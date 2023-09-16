@@ -31,3 +31,8 @@
 .example-card > img {
   object-fit: contain;
 }
+
+.row {
+  display: flex;
+  justify-content: center;
+}
